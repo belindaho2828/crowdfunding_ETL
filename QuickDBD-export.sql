@@ -6,16 +6,16 @@
 CREATE TABLE "campaign" (
     "cf_id" INT   NOT NULL,
     "contact_id" INT   NOT NULL,
-    "company_name" VARCHAR(30)   NOT NULL,
+    "company_name" VARCHAR(100)   NOT NULL,
     "description" VARCHAR(100)   NOT NULL,
     "goal" NUMERIC   NOT NULL,
     "pledged" NUMERIC   NOT NULL,
     "outcome" VARCHAR(10)   NOT NULL,
     "backers_count" INT   NOT NULL,
     "country" VARCHAR(30)   NOT NULL,
-    "currency" VARCHAR(2)   NOT NULL,
-    "launched_date" DATETIME   NOT NULL,
-    "end_date" DATETIME   NOT NULL,
+    "currency" VARCHAR(5)   NOT NULL,
+    "launched_date" DATE   NOT NULL,
+    "end_date" DATE   NOT NULL,
     "category_id" VARCHAR(30)   NOT NULL,
     "subcategory_id" VARCHAR(30)   NOT NULL,
     CONSTRAINT "pk_campaign" PRIMARY KEY (
@@ -57,4 +57,16 @@ REFERENCES "category" ("category_id");
 
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY("subcategory_id")
 REFERENCES "subcategory" ("subcategory_id");
+
+--Verify table creation and data
+select * from campaign;
+
+select * from category;
+
+select * from contacts;
+
+select * from subcategory;
+
+
+
 
