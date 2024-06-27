@@ -11,25 +11,7 @@ Please import the CSV files in the following order, in order to avoid foreign ke
 
 # Challenge Description
 
-This ETL "mini" project involed constructing an ETL (Extract, Transform, Load) pipeline using Python, and Pandas, and SQL. This process involved creating four CSV files from the transformed data, and utilizing them to generate an Entity-Relationship Diagram and Table Schema. Finally We imported the CSV files into PGAdmin and successfully ran our SQL Queries. 
-
-<img width="1259" alt="Screenshot 2024-04-29 at 7 10 15 PM" src="https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/b4e17851-a0b9-4f82-8c21-5edcd94b4cf2">
-<img width="1186" alt="Screenshot 2024-04-29 at 7 10 31 PM" src="https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/de5eb6dd-cfde-42d1-a62f-aebb82088285">
-<img width="1015" alt="Screenshot 2024-04-29 at 7 10 39 PM" src="https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/a5c010a1-85c6-4de1-948f-7bdb524f7cd1">
-<img width="1069" alt="Screenshot 2024-04-29 at 7 10 48 PM" src="https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/1bddb4de-c7ca-41ce-80a5-0eac7abc6896">
-<img width="1262" alt="Screenshot 2024-04-29 at 7 10 59 PM" src="https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/ce266a9f-dc39-443e-8926-a8600ac4c76c">
-<img width="842" alt="Screenshot 2024-04-29 at 7 11 11 PM" src="https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/d5ff0f94-1e2c-4125-a7e6-9f80b7c97445">
-<img width="1004" alt="Screenshot 2024-04-29 at 7 11 19 PM" src="https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/dcebac95-e774-432a-9859-acd9ec037911">
-<img width="855" alt="Screenshot 2024-04-29 at 7 11 27 PM" src="https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/681e1958-b8c0-4f03-8114-400fe3549b4e">
-
-
-
-
-
-
-
-
-
+This ETL "mini" project involed constructing an ETL (Extract, Transform, Load) pipeline using Python, and Pandas, and SQL. This process involved creating four CSV files from the transformed data, and utilizing them to generate an Entity-Relationship Diagram and Table Schema. Finally, the CSV files were imported into PGAdmin and the SQL queries were successfully ran. 
 
 
 
@@ -49,7 +31,7 @@ This ETL "mini" project involed constructing an ETL (Extract, Transform, Load) p
 
 
   
-  # Our Results
+  # Results
 ![Screenshot 2024-04-29 at 7 14 55 PM](https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/62f7f7e6-e258-436e-af7d-e7a4654b246d)
 ![Screenshot 2024-04-29 at 7 15 09 PM](https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/7ced407f-060f-45d0-bbb7-cee07984bd7c)
 ![Screenshot 2024-04-29 at 7 15 20 PM](https://github.com/belindaho2828/crowdfunding_ETL/assets/158017994/66dffbf8-d7e3-4e9f-8c23-6793d7dc7bcd)
@@ -59,5 +41,4 @@ This ETL "mini" project involed constructing an ETL (Extract, Transform, Load) p
 
 
 
- ## Additional Resources
-For syntax that I was not familiar with, I used resources such as the Xpert Learning Assistant, provided by UC Berkely Bootcamp, Python and Pandas Documentation, and ChatGPT.  
+
