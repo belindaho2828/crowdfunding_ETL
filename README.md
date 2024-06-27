@@ -1,6 +1,6 @@
 # crowdfunding_ETL
 
-Welcome to our team submission for the project 2 Crowdfunding challenge in module 13 of the Data Analytics bootcamp. This project was completed as part of the curriculum to showcase our proficiency in the ETL process, including importing CSV and Excel files into Jupyter Lab and cleaning files using pandas syntax.
+This project showcases proficiency in the ETL process, including importing CSV and Excel files into Jupyter Lab and cleaning files using pandas syntax.
 
 # TO RUN THIS CODE IN PGADMIN:
 Please import the CSV files in the following order, in order to avoid foreign key import errors:
